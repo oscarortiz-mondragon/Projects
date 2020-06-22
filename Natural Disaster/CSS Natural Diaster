@@ -1,0 +1,176 @@
+/* background color */
+html {
+  scroll-behavior: smooth;
+}
+.background-move {
+  background: rgb(102, 99, 99);
+  margin: 10px;
+}
+.background-color {
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+/* Panel of four */
+.Flex {
+  display: flex;
+  flex: 1;
+  height: 500px;
+}
+.Flower {
+  background: linear-gradient(rgba(68, 224, 48, 0.6), rgba(11, 12, 55, 0.2)),
+    url(./images/BackgroundFlower.jpeg) center/cover no-repeat fixed;
+
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.1s linear;
+}
+.FlexSide {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.Lava {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: url(./images/Lava.jpeg) center/cover no-repeat;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.1s linear;
+}
+.Water {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: url(./images/tsunami.jpeg) center/cover no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.1s linear;
+}
+.Wind {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: url(./images/Tornado.jpeg) center/cover no-repeat fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.1s linear;
+}
+/* Hover effect of panel */
+
+.Flower:hover {
+  flex: 4;
+  color: darkviolet;
+}
+
+.Lava:hover {
+  color: red;
+  animation: lava 0.5s;
+  flex: 4;
+}
+
+.Water:hover {
+  color: coral;
+  animation: water 0.5s linear;
+  flex: 4;
+}
+
+.Wind:hover {
+  color: cornflowerblue;
+  animation: wind 0.5s linear;
+  flex: 4;
+}
+
+/* Links on Panel */
+.FlowerLink:hover {
+  color: purple;
+  border: rgb(218, 221, 231) solid 10px;
+  background-color: black;
+}
+.LavaLink:hover {
+  color: red;
+}
+.WaterLink:hover {
+  color: coral;
+}
+.WindLink:hover {
+  color: cornflowerblue;
+}
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  background: (rgba(0, 0, 0, 1));
+  border-radius: 10px;
+}
+
+@keyframes wind {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes lava {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes water {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+  /* Paragraphs */
+}
+#storyFlower,
+#storyLava,
+#storyWater,
+#storyWind {
+  font-weight: bold;
+}
+
+/* images in HTML */
+.drought {
+  float: right;
+}
+.forestFire {
+  float: left;
+}
+.waterPool {
+  float: right;
+}
+.hurricane {
+  float: left;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
