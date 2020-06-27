@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>Boostrap Cheat Sheet</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="page-header">Hello, world!</h1>
+      <p class="lead">
+        <!-- lead class makes the text a bit bigger -->
+        <!-- typography -->
+        <mark>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eos
+          quo aspernatur? Totam reiciendis deserunt nostrum commodi vero? Ipsum
+          quos</mark
+        >
+        <del
+          >a repellendus laboriosam sequi quisquam, ut aliquam blanditiis
+          culpa</del
+        >
+        inventore iure officia. Quia beatae est ipsam, dolorum tenetur ratione
+        optio neque repudiandae doloremque similique modi repellendus. Aperiam
+        magnam dolores laudantium iste reprehenderit dolorum eligendi vero, amet
+        beatae est aut commodi omnis sint earum nulla fugit eaque sunt magni
+        nemo atque pariatur et sed facilis. Odit accusamus itaque dolorum facere
+        eveniet dignissimos ad magni eos nam necessitatibus? Sed officia
+        possimus, dolores saepe ullam, fugiat autem tempore ex rem dignissimos
+        cumque?
+      </p>
+      <hr>
+      <p class="text-left text-lowercase" >Left Aligned Test</p>
+      <p class="text-center">Center Align text</p>
+     <p class="text-right">Right Align text</p>
+     <p class="text-justify">Justisfied Align text</p>
+     <p class="text-nowrap">No wrap text Align text</p>
+     </hr>
+      <!-- allignment -->
+   
+    <!-- Container helps move things -->
+    <!-- floats -->
+    <div class="float-right">
+     Div floated right
+    </div>
+    <!-- clear fix very important to stop the effects of float -->
+    <div class="clearfix"></div>
+       <hr>
+       <!-- block quoate -->
+       <blockquote class="blockquote"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quaerat nisi non voluptate necessitatibus, distinctio incidunt nihil itaque quisquam cumque.</p>
+       <footer>quote by <cite title="John Doe">John Doe</cite></footer></blockquote>
+       <ul>
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+       </ul>
+       <ul class="list-inline">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+       </ul>
+       <!-- code stuff -->
+       <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+       <!-- keyboard stuff -->
+      <kbd> <kbd>alt</kbd> + <kbd>,</kbd></kbd>
+      <hr>
+      <!-- Context colors -->
+      <!-- succes, info, warning, danger, nutes are others, all have a color -->
+      <p class="text-primary">apple</p>
+      <p class="bg-warning">class war</p>
+  
+  <hr>
+  <div class="container">
+   <!-- buttons -->
+   <button class="btn btn-default">Default</button>
+   <a href="#" class="btn btn-default" role="button">Link</a>
+   <!-- contextual buttons -->
+   <button class="btn btn-success">defualt</button>
+   <button class="btn btn-info">primary</button>
+   <button class="btn btn-warning">defualt</button>
+   <button class="btn btn-danger">defualt</button>
+   <!-- buttons sizes -->
+   <button class="btn btn-default btn-lg">OW</button>
+   <button class="btn btn-default btn-sm">small</button>
+  </div>
+  <hr>
+  <div class="container">
+  <form action=""><div class="form-group">
+   <label for="">Name</label>
+   <input type="text" placeholder="add name" id="" class="form-control">
+   <label for="">Email</label>
+   <input type="email" placeholder="add email" id="" class="form-control">
+   <label for="">Message</label>
+<textarea class="form-control" name="" id="" placeholder="Add message" cols="30" rows="10"></textarea>
+<hr>
+<div class="form-group"></div>
+ <label for="">Gender</label>
+<select class="form-control" name="" id="">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+</select>1
+  </div>
+  <hr>
+ <div class="form-group">
+  <label for="">Upload File</label>
+  <input type="file" name="" id="">
+  <p class="help-block">Only PNG and JPG allowed</p>
+ </div>
+<div class="checkbox"><label for="">
+ <input type="checkbox" name="" id="">check me out
+</label></div>
+<button type="submit" class="btn btn-danger">Subtmit</button>
+</form>
+<form class="form-inline" action="" >
+ <div class="form-group">
+<label for="">Email</label>
+<input type="email" class="form-control" placeholder="Email" >
+ </div>
+ <div class="form-group">
+  <label for="" >Password</label>
+  <input type="password" class="form-control" placeholder="Password" >
+
+ </div>
+ <div class="checkbox"></div>
+ <label for=""><input type="checkbox">Remember Me</label>
+ <button class="btn btn-default" >Login</button>
+</form>
+ </div>
+ <!-- Class of table makes things look sooo much better -->
+ <div class="container">
+<table class="table table-striped table-hover">
+<tr>
+ <th>FirstName</th>
+ <th>LastName</th>
+ <th>Age</th>
+</tr>
+<tr class="table-danger">
+ <td>Jill</td>
+<td>Smith</td>
+<td>50</td>
+</tr>
+<tr class="table-success">
+ <td>patrick</td>
+ <td>start</td>
+ <td>100</td>
+</tr>
+</table>
+ </div>
+
+<hr>
+<div class="container">
+ <ul class="list-group">
+  <li class="list-group-item">Item one</li>
+  <li class="list-group-item" >item two</li>
+  <li class="list-group-item">item three</li>
+  <li class="list-group-item">item four</li>
+ </ul>
+ <div class="list-group">
+  <a href="#" class="list-group-item acitve">item one</a>
+  <a href="#" class="list-group-item ">item two</a>
+  <a href="#" class="list-group-item">item three</a>
+  <a href="#" class="list-group-item list-group-item-success">item four</a>
+ </div>
+</div>
+<div class="container">
+<!-- panel item -->
+<div class="panel panel-success">
+ <div class="panel-heading">
+  <h3 class="panel-title">Panel title</h3>
+ </div>
+ <div class="panel-body">
+  Panel content
+ </div>
+ <div class="panel-footer">Footer</div>
+</div>
+<hr>
+<!-- wells -->
+<div class="well well-lg">Hello World</div>
+<hr>
+<div class="alert alert-success" role="alert">A succes</div>
+<div class="alert alert-info" role="alert">An info</div> 
+<!-- blue is above -->
+<div class="alert" role="alert"></div>
+<div class="alert" role="alert"></div>
+<div class="alert alert-warning alert-dismissible" role="alert" >
+ <button type="button"></button>
+</div>
+</div>
+
+  <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
