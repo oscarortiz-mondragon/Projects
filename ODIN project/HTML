@@ -14,3 +14,10 @@ Basic HTML and HTML5: Link to Internal Sections of a Page with Anchor Elements
 </main>
 
 <footer>Copyright Cat Photo App</footer>
+--------------------
+Way to create "required" entry fields, form is can be used to make data be sent somewhere. 
+
+  <form action="/submit-cat-photo">
+    <input type="text" required placeholder="cat photo URL">
+    <button type="submit">Submit</button>
+  </form>
