@@ -1,0 +1,8 @@
+Increasing padding will increase the size, but increasing the margin will decrease the size. 
+padding/margin goes clockwork, top right bottom left. 
+em and rem, are relative, based off font size, while absolute are based on resolution (mm and inches) 
+adding !imporant, to the end, will make sure it will never be overuled. 
+.pink-text {
+    color: pink !important;
+  }
+  variables of css can be done with --(name): color
