@@ -6,3 +6,5 @@ adding !imporant, to the end, will make sure it will never be overuled.
     color: pink !important;
   }
   variables of css can be done with --(name): color
+  use of multiple shadows, separated with a comma. 
+     box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
