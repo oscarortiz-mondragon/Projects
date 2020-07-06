@@ -8,6 +8,23 @@ adding !imporant, to the end, will make sure it will never be overuled.
   variables of css can be done with --(name): color
   use of multiple shadows, separated with a comma. 
      box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+     horizontal, vertical, blur, spread, color (only the first two are needed)
 Positive relative, meaning away from, so a direction of 5px top, means 5px away from the top, so it pushed down more. 
 position fixed can be used on images for that cool effect, but remember it works on the NAV bar as well. 
 margin of auto causes elements to move center, exerpiment this vs justify content-center.
+
+HSL(number, 0-100%, 0-100%) hue, saturation(Gray) lightness(white) good way to use the same color but change it up. 
+
+repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );
+  }
+Best way to add background, just add a URL or color to the body of the HTML.
+  body {
+background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png)
+  }
+  trasnform skew,scale, 
