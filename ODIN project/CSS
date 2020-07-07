@@ -77,3 +77,10 @@ animation-timing-function: linear
 
 cubic-bezier, even greater control of movement
 first we still need animation-timing-function: cubic-bezier (0-1,same,same,same) xy xy
+
+H tags, there should only be one h1 tag, and tags should be in order, shouldn't have a h5 tag under the h2 tag. 
+header (not head seen on the top of html), footer, nav, are all treated like div. ARticle is another one, good for blogs/posts/forums. Header should be intro info. 
+audio is used for clips, remember that audio needs to be followed with controls
+<audio controls>
+<source src="" type="">
+</audio>
