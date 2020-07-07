@@ -28,3 +28,7 @@ Best way to add background, just add a URL or color to the body of the HTML.
 background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png)
   }
   trasnform skew,scale, 
+  allows us to create an effect, and have it stay on that effect
+      animation-fill-mode: forwards;
+      allows us to control how often the animation occurs. 
+    animation-iteration-count:
