@@ -84,3 +84,14 @@ audio is used for clips, remember that audio needs to be followed with controls
 <audio controls>
 <source src="" type="">
 </audio>
+
+The for="" is important to include to select the input with the same label, but on ID. 
+   <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+      
+      <fieldset>
+        <legend>What level ninja are you?</legend>
+        radio code
+        label
+        </fieldset>
+        Good looking submit area.
