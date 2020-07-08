@@ -95,3 +95,7 @@ The for="" is important to include to select the input with the same label, but 
         label
         </fieldset>
         Good looking submit area.
+      How to make it compatible with different sizes. 
+         @media (max-height: 800px){
+    p {font-size: 10px }
+  }
