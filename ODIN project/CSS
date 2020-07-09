@@ -99,3 +99,13 @@ The for="" is important to include to select the input with the same label, but 
          @media (max-height: 800px){
     p {font-size: 10px }
   }
+what does justify content do? 
+Tell how the flex property to be spaced out on the main axis.
+align items is similar, but does it on the oppiste axis. 
+flex 1 1 150px, grow,shrink, basis. 
+align-self allows us to change the flex.
+CSS GRID---------------------------
+Display: Grid
+Grid-template-columns. 
+Grid-gap adds gaps to rows and columns.
+grid-column/row takes up the space you wan with numberline/numberline (the / is important)
