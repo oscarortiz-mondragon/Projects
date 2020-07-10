@@ -1,0 +1,26 @@
+
+Why do we separate HTML and CSS?
+To keep it neat
+What are classes and IDs (and how are they different)?
+IDS are unique and should not be repeated, while classes can.
+What are elements?
+Elements are things like the body, head. html.
+What are tags?
+tags are things that open and close the element.
+What are attributes?
+attributes are the thngs added after the element, like href is added after the a tag. 
+What are forms?
+Place where data is sent.
+What is a div?
+div is a container.
+What are selectors?
+selectors 
+What are properties?
+What are values?
+What is the “query string” in a URL and what does it do?
+What is the difference between “pixels” and “ems”?
+How do CSS styles for a particular element get inherited? i.e. how does an element get its “default” styles?
+What are two CSS attributes you can change to push an element around on the page?
+What are the three different ways to include CSS in your project or use CSS to style a particular element?
+What is the “default stylesheet” or “user agent stylesheet”?
+Why use a CSS reset file?
