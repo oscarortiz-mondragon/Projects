@@ -1,4 +1,4 @@
-
+HTML/CSS basics
 Why do we separate HTML and CSS?
 To keep it neat
 What are classes and IDs (and how are they different)?
@@ -24,3 +24,14 @@ What are two CSS attributes you can change to push an element around on the page
 What are the three different ways to include CSS in your project or use CSS to style a particular element?
 What is the “default stylesheet” or “user agent stylesheet”?
 Why use a CSS reset file?
+GIT----------------------------------
+What is version control?
+Records all changes. 
+What type of control is get then?
+Git is a Distributed Control System. Mirrors the respository. Isn't effected if only 
+one server goes down. 
+What makes git unique?
+More snapshot based, comparing how the images look to the previous
+image. If no change, uses the same image. 
+What are the three stages of git?
+Modify, stage, commit. (stage is just the mod being sent for approval)
