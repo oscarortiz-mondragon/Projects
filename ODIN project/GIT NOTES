@@ -1,0 +1,70 @@
+ls
+cd local-Repo/
+ls -la
+"git init", local code base
+ls -la
+rm -rf .git (if we want to stop tracking it with git.) 
+git status 
+(to ignore file)
+add files to gitignore
+touch .gitignore
+(add files to staging area)
+git add .gitignore
+git status, will show the untract, the .gitignore will be in staging
+reset removes the things from the staging area.
+git reset (calc.py)
+git resets removes all.
+
+OUR first COMMIT
+git add -A (moves staging)
+git status (will be commited)
+git commit -m "Initial Commit"
+GIT status, working directory is clean now.
+
+gitlog(see all the ones we just commited)
+
+TRACK A REMOTE PROJECT (WORK PLACE)
+git clone <url> <where to clone>
+ls
+cd Cloned Repo/
+ls -la
+git clone URL . (dot means to clone on the repsoit)
+ls -la (now we have files)
+
+(VIEWING INFO)
+ git remote -v
+ git branch -a
+ 
+ (MADE A CHANGE IN CODE)
+ 
+ git diff(changes we made of the code)
+ git status (modified file)
+ git add -A (add all the changes)
+ git commit -m "Multply Function"
+ git pull origin master
+ git push origin master (master is the branch)
+ 
+ Real life, we are not pushing into master daily. 
+ 
+ Firt we should make a branch and make changes there.
+ git branch name of branch (no "")
+ git checkout name of branch (should now be highlighted)
+ git status to see any mods
+ git add -A.
+ git commit -m "divide function"
+ (PUSH the BRANCH WHEN READY)
+ git push -u origin calc-divide
+ (MERGE the BRANCH)
+git checkout master
+git pull origin master (should be up to date)
+git branch --merged
+git merge name of branch
+git push origin master
+(Once merged, delete branch)
+git branch --merged
+git branch -d branch name
+git brnach -a (still have the remote one)
+to delete remote
+git push origin --delete name of branch
+git branch -a
+should now have only master.
