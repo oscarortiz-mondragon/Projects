@@ -1,3 +1,17 @@
+---------------PRACTICAL USE
+1. Create Repository with
+2. TERMINAL: git clone ssh URL/ CD 1 name, git remote -v, see if working
+3. TERMINAL; touch (name of the file you are making.js/html/css/etc)
+4. git status
+5. Make edits
+6. git add 3. name
+7. git commit -m "comment"
+8. with lots of files not staged, git add . 
+
+
+
+
+----------------------
 ls
 cd local-Repo/
 ls -la
@@ -68,3 +82,5 @@ to delete remote
 git push origin --delete name of branch
 git branch -a
 should now have only master.
+git add . (space between add the period.)
+FOND the FILE just by looking up name. 
