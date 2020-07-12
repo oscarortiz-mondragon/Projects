@@ -22,11 +22,11 @@ git commit -m "Initial Commit"
 GIT status, working directory is clean now.
 
 gitlog(see all the ones we just commited)
-
+---------------------------------------------------------------------
 TRACK A REMOTE PROJECT (WORK PLACE)
 git clone <url> <where to clone>
 ls
-cd Cloned Repo/
+cd Cloned Repo/ (name of repo)
 ls -la
 git clone URL . (dot means to clone on the repsoit)
 ls -la (now we have files)
