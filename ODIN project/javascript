@@ -9,3 +9,4 @@ type of variable, to see what type it is.
 Number(variable) to turn a string into a number
 or, parse int, or even better, just add a +variable and that works the same as Number(variable)
 ++ var vs var++, var++ uses the old value and needs to be called again to see the new one, ++var gives you the new one straight up.
+null means simply value is not there, we give that to a variable to say we don't know. 
