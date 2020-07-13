@@ -1,0 +1,8 @@
+when using the + symbol, anything right of a string will cause all things to be treated as a string right of the "". And anything attached to it. 
+this only applies to the + symbol.
+0xFF will be like 16 * 16, like the colors ff00ff. 
+strings are words
+numbers are numbers
+objects name:value pair. 
+Objects can be created with new name(value), but slows down the process, do avoid. 
+Number(variable) to turn a string into a number
