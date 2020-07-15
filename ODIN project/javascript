@@ -9,4 +9,41 @@ type of variable, to see what type it is.
 Number(variable) to turn a string into a number
 or, parse int, or even better, just add a +variable and that works the same as Number(variable)
 ++ var vs var++, var++ uses the old value and needs to be called again to see the new one, ++var gives you the new one straight up.
+----------STRINGS
 null means simply value is not there, we give that to a variable to say we don't know. 
+We learned Number(var) makes a string into a number, to make a number into a string we do var.toString().
+indexOf("word") finds the first place it can be seen, .length returns the length., .search(words)[cannot take position] works the same as indexOf(word,15).
+for slice, we need to set it to another var. Best to treat all of them this way. 
+replace(word want to be replace, word going to be added)./same words wanted to be replace /g
+-------------CONDITIONALS
+IF statements make a condition if true run somethng, ELSE is done if it's false, ELSE IF is when IF is false, but meets another condition.
+&& returns the first false, while || returns the first truth. ! makes booleans oppsite values, while !! makes thing into booleans. 
+
+Example of DOM and switch statement
+
+const select = document.querySelector('select');
+const para = document.querySelector('p');
+
+select.addEventListener('change', setWeather); ("change will be the value, setWeather is the function)
+
+
+function setWeather() {
+  const choice = select.value;
+
+  switch (choice) {
+    case 'sunny':
+      para.textContent = 'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';
+      break;
+    case 'rainy':
+      para.textContent = 'Rain is falling outside; take a rain coat and an umbrella, and don\'t stay out for too long.';
+      break;
+    case 'snowing':
+      para.textContent = 'The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.';
+      break;
+    case 'overcast':
+      para.textContent = 'It isn\'t raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.';
+      break;
+    default:
+      para.textContent = '';
+  }
+}
