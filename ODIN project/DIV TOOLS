@@ -1,0 +1,6 @@
+---------JAVASCRIPT
+debug(nameOfFunction) stops the page here. 
+first step of bug catching, reproduce it. 
+we debug JS on the sources tab. 
+GO to event lister breakpoints, and check mark the one you suspect is causing the issue. 
+Or you can click the number near the code, most common, called line of code.
