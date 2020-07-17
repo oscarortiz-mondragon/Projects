@@ -62,5 +62,7 @@ else if( number < 42 )
 else if (number > 42){
     response = "LAME. That number is too large!"
 }
+Functions-------------------------
+A function doesn't need a name if it's turns on by an event, such as a button being clicked on.
 
 
