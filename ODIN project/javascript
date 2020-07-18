@@ -64,5 +64,8 @@ else if (number > 42){
 }
 Functions-------------------------
 A function doesn't need a name if it's turns on by an event, such as a button being clicked on.
+we can use two ways to make sure if nothing is given a word comes out, one is variable === undefined, varibale = "no text given"
+or alert(variablle ?? "No text given")
+most function names start with a verb
 
 
