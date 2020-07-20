@@ -68,4 +68,11 @@ we can use two ways to make sure if nothing is given a word comes out, one is va
 or alert(variablle ?? "No text given")
 most function names start with a verb
 expressions have the let = function, declarations have just the function name () {}
-
+--------Writing Clean Code-----------
+Important to write code so that you don't need to write any comments. Write as if comments don't exisit. 
+Comments are best when we are describing why we are doing something. 
+--------Arrays-----------------
+Array.isArray(nameofarray) = simimlar to typeOf.
+if assigned, pop will give the variable the value of what was popped, while push will give you the new length count. 
+splice since it is not used in the[] form, think of 1 as [0]
+slice makes a new array, so it needs its own variable, since it doesn't effect the orginal array, slice may seem better. 
