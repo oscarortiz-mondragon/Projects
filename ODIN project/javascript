@@ -76,3 +76,4 @@ Array.isArray(nameofarray) = simimlar to typeOf.
 if assigned, pop will give the variable the value of what was popped, while push will give you the new length count. 
 splice since it is not used in the[] form, think of 1 as [0]
 slice makes a new array, so it needs its own variable, since it doesn't effect the orginal array, slice may seem better. 
+slice always slice left of that number it lands, treat these are [0]
