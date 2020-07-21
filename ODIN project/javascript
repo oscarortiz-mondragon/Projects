@@ -80,4 +80,4 @@ slice always slice left of that number it lands, treat these are [0]
 .split removes a key thing, like "," or ":"
 .toLowerCase makes keys insensitive. 
 -------LOOPS--------------
-
+continue skips the round of output if true, while break stops the whole thing. these are usually done with Ifs inside the for/while
