@@ -77,3 +77,7 @@ if assigned, pop will give the variable the value of what was popped, while push
 splice since it is not used in the[] form, think of 1 as [0]
 slice makes a new array, so it needs its own variable, since it doesn't effect the orginal array, slice may seem better. 
 slice always slice left of that number it lands, treat these are [0]
+.split removes a key thing, like "," or ":"
+.toLowerCase makes keys insensitive. 
+-------LOOPS--------------
+
