@@ -31,3 +31,4 @@ Names for the set of inputs, values to read the data once sent. For = "" are giv
     <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
     <input type="text" placeholder="cat photo URL" required>
     <button type="submit">Submit</button>
+A way to add videos directly onto the web page, we can use the direct embed found in youtube, between iframes, under share. 
