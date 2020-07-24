@@ -121,3 +121,4 @@ grid-template-areas:
    grid-template-columns: repeat(3,1fr);
    way to have grids that change with size.
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  -------Should go over CSS grid, seem important for certain applications, like the etch e sketch
