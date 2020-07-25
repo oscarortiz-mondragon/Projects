@@ -106,19 +106,22 @@ flex 1 1 150px, grow,shrink, basis.
 align-self allows us to change the flex.
 CSS GRID---------------------------
 Display: Grid
-Grid-template-columns. 
-Grid-gap adds gaps to rows and columns.
+Grid-template-columns. You need to add px, fr, auto, for each column you have.Wth no commas.
+Grid-gap adds gaps to rows and columns. Adds both if two variables, or one all around otherwise, like margin.
 grid-column/row takes up the space you wan with numberline/numberline (the / is important)
-Justify content aligns left to right, while alig-self is top and bottom. Justify items effects on, must be on the container. 
-Good way to move things exactly where you want, after the names are made, use grid-area under the name of the box, item5; add gridaarea: footer.
+Justify content aligns left to right, while align-self is top and bottom. Justify items effects on, must be on the container, and will effect all.
+to create names you need to name "name name . " 
+                                 "footer footer footer"  
+Each row is made by the "" and each word represents a cell. only one cell. 
+Good way to move things exactly where you want, after the names are made, use grid-area under the name of the box, .item5{grida-area: footer} 
 grid-template-areas:
       "header header header"
       "advert content content"
       "footer footer footer";
   }
-  another way will be just to use grid-area: hor line/ver line/end hor line/end ver line.
+  another way will be just to use grid-area: hor line/ver line/end hor line/end ver line. 1/3/3/4
   instead of adding three of the same, 1fr,1fr,1fr, we can do this. 
    grid-template-columns: repeat(3,1fr);
    way to have grids that change with size.
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
-  -------Should go over CSS grid, seem important for certain applications, like the etch e sketch
+
