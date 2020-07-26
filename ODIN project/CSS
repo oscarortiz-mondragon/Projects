@@ -124,4 +124,5 @@ grid-template-areas:
    grid-template-columns: repeat(3,1fr);
    way to have grids that change with size.
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  confidently can work with grids now, need to examine the names better.
 
