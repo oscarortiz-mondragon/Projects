@@ -81,3 +81,47 @@ slice always slice left of that number it lands, treat these are [0]
 .toLowerCase makes keys insensitive. 
 -------LOOPS--------------
 continue skips the round of output if true, while break stops the whole thing. these are usually done with Ifs inside the for/while
+-----Objects------------
+objects can be created
+let user = {name:"john", age: 15}
+
+user.name will call John
+user.friend = "paul"
+this will add a name of friend with value of "paul"
+delete user.friend will remove the name and value
+quatations are used to add multi word thing
+user{"likes birds": no}
+for quatation words, user["likes Birds] = No, will work instead of user.likes Birds
+Works with prompts as well, since prompts are words.
+so let words = prompt(what do you want to know?) 
+user[words] = "friend", the word word Paul will come out.
+to test if something is inside or not, we can run alert("name" in user), called the IN. 
+Use of FOR and INS, when used as user[key], will give us all the values. 
+for (key in object) {
+  // executes the body for each key among object properties
+}
+let user = {
+  name: "John",
+  age: 30,
+  isAdmin: true
+};
+
+for (let key in user) {
+  // keys
+  alert( key );  // name, age, isAdmin
+  // values for the keys
+  alert( user[key] ); // John, 30, true
+}
+A way to add up all salaries of everyone.
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+};
+
+let sum = 0;
+for (let key in salaries) {
+  sum += salaries[key];
+}
+
+alert(sum); // 390
