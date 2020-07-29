@@ -148,3 +148,7 @@ return total + (inventor.passed - inventor.year);
 } 0);
 if you're getting a weird number, the total is used by the stored value of previous values. so 0 will fix it.
 }
+if a message pop up about Nodelist, it measn you must make it into an array. Array.from(category.qureySelectorAll('a'))
+run the map to get the array.then run the filter. streetname.Included('de'))
+transportation = data.reduce(function(obj,item){
+if (!obj[item])onj[item] = 0;} obj[item]++;return obj
