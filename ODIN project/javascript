@@ -125,3 +125,26 @@ for (let key in salaries) {
 }
 
 alert(sum); // 390
+name.last is the same as name[last]
+however note that [] can only work with array variables.
+name: john
+"hello" + this.name , hello John
+----ARRRAY YOUTUBE VIDEO
+array.filter. We pass a function into it.
+let filter = thing.filter(function(inventor){
+if statemt to return true})
+console.table
+array.map always returns the same amount as you give it. here there is no if since the whole array will be looked through, return first and last name,
+still need to make the function statement (can make it shoter by erasing the function just saying invetor =>
+person.first + person.last
+sort get two things and give it the value of 1 and -1, also uses If statements.
+ordered = inventors.sort(function(a,b){
+if(a.yaer > b.year) {
+return a} else{
+return -1})
+array.reduce like a for loop. Kinda.
+let totalyears = inventors.reduce(function(total,inventor) {
+return total + (inventor.passed - inventor.year);
+} 0);
+if you're getting a weird number, the total is used by the stored value of previous values. so 0 will fix it.
+}
