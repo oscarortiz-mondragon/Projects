@@ -152,3 +152,8 @@ if a message pop up about Nodelist, it measn you must make it into an array. Arr
 run the map to get the array.then run the filter. streetname.Included('de'))
 transportation = data.reduce(function(obj,item){
 if (!obj[item])onj[item] = 0;} obj[item]++;return obj
+filter, if statement that returns true. Coffee is true, filter out the beans. 
+map is like you see all of a certain thing, a MAP on food only vs a MAP of the city, both are in a state, but we only want a map of certain things.
+sort uses -1 and 1, it's the order, when you sort out an order, you are seeing which takes priorty. 
+reduce takes in two variables like sort, but reduce outputs only one value. 
+ the variable in the function can use all the .properties .firstName + .lastName,
