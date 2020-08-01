@@ -161,3 +161,15 @@ when you go on a page and are working on the dom. let a  = document.QuerySelecto
 let test = Array.from(a.querySelectorAll('a'))
 let bigT = test.map(link => link.textContent)
 quereySelectorAll returns a node list, we need an array. Array.from makes it into an array. or you can Do[...a.queAll('a')]
+we can just move test.map down a line and contine with .sort(streetname => streetname.includes('de')).
+Harder first + lastname
+let alpha = people.sort(function(lastOne, firstOne) {
+let [aLast,aFirst] = lastOne.split(", ")
+let [bLast,bFirst] = nextOne.split(", ")
+return aLast > bLast? 1:-1});
+console.log(alpha)
+HARDER
+let transportation = data.reduce(function(obj,item){
+if(!obj[item]){
+obj[item] = 0;}
+obj[item]++; return obj;} {});
