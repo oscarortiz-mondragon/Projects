@@ -173,3 +173,14 @@ let transportation = data.reduce(function(obj,item){
 if(!obj[item]){
 obj[item] = 0;}
 obj[item]++; return obj;} {});
+.some function
+A cool way to get current year 
+let adult = people.some(function(){
+let currentYear = (new Date ()).getFullYear();
+if(currentYear = person.year >= 19){
+return true;}});
+console.log({adult}) to get the variable that matches that one time true statement.
+.every works if all are true, and .find finds a specific one, typically if === "something you want" 
+.findIndex is set up like .find, but returns to us the position, important for when we want to to remove it from the array or add something to it
+for index = 1, to remove.
+comments.splice(index,1)
