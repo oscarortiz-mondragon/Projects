@@ -157,3 +157,7 @@ map is like you see all of a certain thing, a MAP on food only vs a MAP of the c
 sort uses -1 and 1, it's the order, when you sort out an order, you are seeing which takes priorty. 
 reduce takes in two variables like sort, but reduce outputs only one value. 
  the variable in the function can use all the .properties .firstName + .lastName,
+when you go on a page and are working on the dom. let a  = document.QuerySelector
+let test = Array.from(a.querySelectorAll('a'))
+let bigT = test.map(link => link.textContent)
+quereySelectorAll returns a node list, we need an array. Array.from makes it into an array. or you can Do[...a.queAll('a')]
