@@ -145,7 +145,7 @@ return -1})
 array.reduce like a for loop. Kinda.
 let totalyears = inventors.reduce(function(total,inventor) {
 return total + (inventor.passed - inventor.year);
-} 0);
+}, 0);
 if you're getting a weird number, the total is used by the stored value of previous values. so 0 will fix it.
 }
 if a message pop up about Nodelist, it measn you must make it into an array. Array.from(category.qureySelectorAll('a'))
