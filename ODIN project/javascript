@@ -184,3 +184,4 @@ console.log({adult}) to get the variable that matches that one time true stateme
 .findIndex is set up like .find, but returns to us the position, important for when we want to to remove it from the array or add something to it
 for index = 1, to remove.
 comments.splice(index,1)
+issues with using .onClick
