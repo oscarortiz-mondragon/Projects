@@ -125,4 +125,9 @@ grid-template-areas:
    way to have grids that change with size.
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
   confidently can work with grids now, need to examine the names better.
-
+  help with resizing
+*, *::before, *::after{
+display:border-box
+}
+body{
+margin and padding to zero to help with color}
