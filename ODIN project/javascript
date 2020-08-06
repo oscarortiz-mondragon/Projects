@@ -185,3 +185,23 @@ console.log({adult}) to get the variable that matches that one time true stateme
 for index = 1, to remove.
 comments.splice(index,1)
 issues with using .onClick
+-------WORK AROUND FOR EVAL FUNCTION------------
+new Function----------
+equal.addEventListener('click',function(p,his){
+    if(history.innerText == ""){
+        let p = para.textContent
+        history.innerText =  new Function(`return ` + p)()
+        para.textContent = ""
+      
+    }
+   else if(history.innerText != ""){
+       let p = para.textContent
+       let his = history.innerText
+       history.innerText =  new Function(`return `+ p + his)()
+       
+    para.textContent = ""
+    
+  
+   }
+})
+
