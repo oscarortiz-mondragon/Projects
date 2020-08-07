@@ -2,3 +2,9 @@ Abstraction, the level of knowledge a person needs to know to work the product, 
 less than that of a person who needs to repair the phone needs to know. 
 Important to remember that coding is part muscle memory, you have to go through all the excercises, can't skip any and expect to be great. 
 If you don't do the work, someone else will. 
+.rb will tell Visual code that it's ruby
+the shell meaning telling it to d each thing, like old time RPG games. 
+in terminal,cd than tab will finsih the rest of the word you are looking at.
+snake_case is used for ruby. All lowercase and spaces are done with _.
+CamelCase for classes, all capital with each word, no space. 
+-----reading documentation
