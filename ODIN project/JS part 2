@@ -2,3 +2,5 @@ Finding solutions to problems-------
 Rewrite it in plain english, write a diagram. Given your inputs, what steps do you need to take to get the output you want. 
 Pseudo code is the steps you plan to take in plain english.
 Does it need an inerphase, where does the input come from,
+solve easy things first, then subproblems, problems that don't rely on solving any other problem.
+input implies that some question was given. And a way to capture the answer.
