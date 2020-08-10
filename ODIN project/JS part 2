@@ -75,3 +75,31 @@ EighthGrader.prototype = Object.create(Student.prototype)
 const carl = new EighthGrader("carl")
 carl.sayName() // console.logs "carl"
 carl.grade // 8
+
+---------------------Youtube
+function Apple(X,Y,Color){
+this.x = x
+this.y = y
+this.color = color
+}
+let apple1 = new Apple(10,20,"green")
+new Apple is needed, then you just add variables that will be added to the apple constructor above. 
+prototypes are shared objects. 
+apple1 color:red; weight: 33;
+apple2 color green weidth 12
+apple.prototype = {
+eat(),
+throw()
+}
+color and wight are unqie, but eat and throw is not, so it's proto
+if we have return this on the eat( return this)
+we will not get Apple, but rather apple1 if we decide to do apple1.eat(). Up the chain.
+
+
+
+
+
+
+
+
+
