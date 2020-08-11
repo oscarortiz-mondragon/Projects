@@ -95,9 +95,12 @@ color and wight are unqie, but eat and throw is not, so it's proto
 if we have return this on the eat( return this)
 we will not get Apple, but rather apple1 if we decide to do apple1.eat(). Up the chain.
 
+-----In practice prototype
+Constructor has all the variables set to itself this.name when a variable is name
+function Name(name){}
 
-
-
+let whatEverYouWantToNameIt = new Name("peter")
+whatEverYouWantToNameIt.name will make the word "peter" appear
 
 
 
