@@ -33,6 +33,7 @@ this.superstar = "Michael Jackson";
 }
 // Define "athlete" property on the People prototype so that "athlete" is accessible by all objects that use the People () constructor.
 People.prototype.athlete = "Tiger Woods";
+successfully can add variables by pushing with three arrays, is it possible with only one array, one constructor, then a proto.
 
 var famousPerson = new People ();
 famousPerson.superstar = "Steve Jobs";
