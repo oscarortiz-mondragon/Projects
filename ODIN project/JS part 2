@@ -103,7 +103,8 @@ function Name(name){}
 let whatEverYouWantToNameIt = new Name("peter")
 whatEverYouWantToNameIt.name will make the word "peter" appear
 
-
+need a way to add proto onto the page, probably when I add the evenlLister on the click, if not, I can solve this with array, adding images will be interesting
+while making the page stand out compare to others.
 
 
 
