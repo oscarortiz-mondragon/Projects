@@ -105,6 +105,34 @@ whatEverYouWantToNameIt.name will make the word "peter" appear
 
 need a way to add proto onto the page, probably when I add the evenlLister on the click, if not, I can solve this with array, adding images will be interesting
 while making the page stand out compare to others.
+--------Why aren't constructors good?
+They look like functions but don't act them.
+------------------
+This is an example of a factory function 
 
+const personFactory = (name, age) => {
+  const sayHello = () => console.log('hello!');
+  return { name, age, sayHello };
+};
 
+const jeff = personFactory('jeff', 27);
+
+console.log(jeff.name); // 'jeff'
+
+jeff.sayHello(); // calls the function and logs 'hello!'v
+
+----------------  vs the example with constructor
+const Person = function(name, age) {
+  this.sayHello = () => console.log('hello!');
+  this.name = name;
+  this.age = age;
+};
+the function factory is like you make a function with the gaps; but then you decide what to put into it with a variable outside the function.
+const jeff = new Person('jeff', 27);v
+
+scope-------
+context means this
+scope means variablce access
+if function doesn't have the let, it will look through the gloabl variables if they are the same and replace it, not wanted. 
+Calling a variable from a function in a function is called a lexical scope.
 
