@@ -136,3 +136,53 @@ scope means variablce access
 if function doesn't have the let, it will look through the gloabl variables if they are the same and replace it, not wanted. 
 Calling a variable from a function in a function is called a lexical scope.
 
+if we want a function inside a function to work, we need to return that function, if not, if we just return the fourth internal function, that fourth one has closure
+meanning it has access to all the other internal function variables, another example will be to set a function to a varible
+the main idea is that we assign the big overehading variable with the variables it needs, then we can access the other functions but using the variable for the big function
+.function inside function name(vaibles it wants filled)
+const Player = (name, level) => {
+  let health = level * 2;
+  const getLevel = () => level;
+  const getName  = () => name;
+  const die = () => {
+    // uh oh
+  };
+  const damage = x => {
+    health -= x;
+    if (health <= 0) {
+      die();
+    }
+  };
+  const attack = enemy => {
+    if (level < enemy.getLevel()) {
+      damage(1);
+      console.log(`${enemy.getName()} has damaged ${name}`);
+    }
+    if (level >= enemy.getLevel()) {
+      enemy.damage(1);
+      console.log(`${name} has damaged ${enemy.getName()}`);
+    }
+  };
+  return {attack, damage, getLevel, getName}
+};
+
+const jimmie = Player('jim', 10);
+const badGuy = Player('jeff', 5);
+jimmie.attack(badGuy);
+const counterCreator = () => {
+  let count = 0;
+  return () => {
+    console.log(count);
+    count++;
+  };
+};
+
+const counter = counterCreator();
+
+counter(); // 0
+counter(); // 1
+counter(); // 2
+counter(); // 3
+
+--------Modular
+
